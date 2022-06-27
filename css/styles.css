@@ -30,6 +30,7 @@ background-color: #FFFFFF;
 }
 
 .main-title{
+  width: 100%;
   z-index: -1;
   font-family: 'JetBrains Mono', monospace;
   font-weight: bold;
@@ -106,10 +107,12 @@ top: 100px;
 @media (max-width: 1028px) {
   
   .main-title{
+    width: 60%;
     font-size: 60px;
   }
   .first-para{
     font-size: 20px;
+    width: 60%;
   } 
 
   #main-title1{
@@ -224,8 +227,7 @@ top: 100px;
   box-shadow: 4px 4px 10px 1px #00000040;
   height: 164px;
   width: 320px;
-  margin-right: 100px;
-  margin-top: 100px;
+ margin-bottom: 9%;
 
 }
 
@@ -235,9 +237,7 @@ top: 100px;
   box-shadow: 4px 4px 10px 1px #00000040;
   height: 164px;
   width: 320px;
-  margin-right: 100px;
-  margin-top: 100px;
-
+ 
 }
 
 #group-24{
@@ -246,8 +246,7 @@ top: 100px;
   box-shadow: 4px 4px 10px 1px #00000040;
   height: 164px;
   width: 320px;
-  margin-right: 100px;
-  margin-top: 100px;
+ 
 
 }
 
@@ -257,8 +256,6 @@ top: 100px;
   box-shadow: 4px 4px 10px 1px #00000040;
   height: 164px;
   width: 320px;
-  margin-right: 100px;
-  margin-top: 100px;
 
 }
 .rectangle-161{
@@ -275,58 +272,15 @@ top: 100px;
   object-fit: cover;
   margin-top: 48px;
   width: 264px;
+  
 }
 
 
-@media (max-width: 1028px) {
- #group-22{
-  position:absolute;
-  background-color: rgba(255,255, 255, 1);
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px 1px #00000040;
-  height: 150px;
-  width: 320px;
-  top: 6600px;
-  text-align: center;
-  margin-left: 80px;
- }
- #group-23{
-  margin-left: 80px;
-  position: absolute;
-  top: 6900px;
-  background-color: rgba(255,255, 255, 1);
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px 1px #00000040;
-  height: 150px;
-  width: 320px;
-  margin-top: 0px;
-  text-align: center;
-  
- }
- #group-24{
-  position: absolute;
-  background-color: rgba(255,255, 255, 1);
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px 1px #00000040;
-  height: 150px;
-  width: 320px;
-  margin-top: 0px;
-  top: 7100px;
-  margin-left: 80px;
-  text-align: center;
- }
- #group-25{
-  margin-left: 80px;
-  position: absolute;
-  background-color: rgba(255,255, 255, 1);
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px 1px #00000040;
-  height: 150px;
-  width: 320px;
-  top: 7200px;
-  text-align: center;
- }
+@media (max-width: 483px) {
  
+ #second-page{
+  width: 100%;
+ }
 
 }
 
