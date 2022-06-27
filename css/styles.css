@@ -219,6 +219,14 @@ top: 100px;
     text-align: center;
     padding: 1%;
   }
+  .title5{
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
   
 }
 
