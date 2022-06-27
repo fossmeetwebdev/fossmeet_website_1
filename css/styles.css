@@ -542,9 +542,11 @@ height: 430px;
     margin-top: 30%;
    }
   .testimonials{
+    text-align: center;
     margin-top: 67%;
   }
   .testmnls-title{
+   text-align: center;
    margin-top: 30%;
   }
 }
