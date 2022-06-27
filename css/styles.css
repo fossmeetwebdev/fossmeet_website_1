@@ -639,3 +639,8 @@ height: 430px;
 #icons{
   margin-left: 4%;
 }
+
+#vertical-flex{
+  margin-top: 50px;
+  padding: 3%;
+}
