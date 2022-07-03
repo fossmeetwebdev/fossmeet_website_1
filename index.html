@@ -45,13 +45,13 @@
     <div id = "headeroptions">    
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div id = "headeroptions" class="navbar-nav">
-        <a    id = "top-header" class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+        <a   class = "top-hdr1" id = "top-header" class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
         <a id = "top-header" class="nav-item nav-link" href="#">FAQ</a>
         <a id = "top-header" class="nav-item nav-link" href="#">Contacts</a>
         <a  id = "top-header" class="nav-item nav-link disabled" href="#">Code of conduct</a>
         <a  id = "top-header" class="nav-item nav-link disabled" href="#"></a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <a  id = "top-hdr1" class="nav-item nav-link" href="#">Login</a>
+        <a  id = "top-header" class="nav-item nav-link" href="#">Login</a>
         <button type="button" class="btn btn-primary" id = "rndbtn">Register</button>
         </div>  
       </div>
@@ -59,14 +59,12 @@
     </div>
   </nav>
   <section>
-  <div class="row">
+  <div class="row" id = "row1">
     <div class="col-lg-5 col-md-12" id="main-title1">
-      <h1 class="main-title" style="position:relative; left:60px;top:100px; color:black;">It's Free<br>and open</h1>
-      <p class="first-para" style="position:relative; left:60px;top:150px; color:black; text-align: left;" >Nope, not like <em>free</em> beer at an <br> open bar. It's much more than<br>that.</p>
-      <div class="d-flex justify-content-start" id = "button-div">
-      <button type="button" style="position:relative; top:190px; left: 60px;"  class="btn btn-primary" id = "rndbtn"><h3>Register</h3></button>
-      
-    </div>
+      <h1 class="main-title" style="position:relative; left:100px;top:100px; color:black;">It's Free<br>and open</h1>
+      <p class="first-para" style="position:relative; left:100px;top:150px; color:black;" >Nope, not like <em>free</em> beer at an <br> open bar. It's much more than<br>that.</p>
+      <button type="button" style="position:relative; left:90px;top:150px;"class="btn btn-primary" id = "rndbtn"><h3>Register</h3></button>
+      <button type="button" style="position:relative; left:100px;top:150px;"class="btn btn-primary" id = "rndbtn"><h3>login</h3></button>
     </div>
     <div class="col-lg-6 col-md-12">
       <img class="rotated" src="images/landing-page-illustration-1.svg" alt="foss-meet.svg">
@@ -91,7 +89,7 @@
   <div class = "space"></div>
   <h1 class = "title2"><em><b>Why</b></em> are we conducting it?</h1>
   <div class="d-flex justify-content-center">
-    <p class = "title3">We believe in collabo<br>-ration for the growth of technology and society.</p>
+    <p class = "title3">We believe in collaboration for the growth of technology and society.</p>
     </div>
     <img class = "second-image" src="images/linus-and-rms-transparent.png" alt="second-image">
 </section>
@@ -99,12 +97,11 @@
   <div class = "space"></div>
   <h1 class = "title2"><em><b>Who</b></em> is it for?</h1>
   <div class="row">
-    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Students</h1><img class = "student-img" src="images/img_student1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
-    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Teachers</h1><img class = "student-img" src="images/img_teacher1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
-    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Coders</h1><img class = "student-img" src="images/img_coders1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
+    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Students</h1><img src="images/img_student1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
+    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Teachers</h1><img src="images/img_teacher1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
+    <div class = "col-lg-4 col-sm-12" id = "students"><h1 class = "img-top">Coders</h1><img src="images/img_coders1.svg" alt="Studentimage"><p class = "img-bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Ut dapibus. </p></div>
   </div>
 </section>
-
 <section id = "fifth-page">
 <div class="d-flex justify-content-center"> 
   <div class="left">
@@ -114,7 +111,7 @@
     <br>
     <h1 class = "title6">Save the date for the exciting <em><b>3 day</b></em> event. See y'all there</h1>
     <br>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-start">
     <button type="button" class="btn btn-primary" id = "rndbtn1"><h4>Get tickets</h4></button>
     <button type="button" class="btn btn-primary" id = "rndbtn2"></h4>Location<h4></button>
     </div>    
@@ -129,29 +126,20 @@
   <div class = "hugethanks"><p >A huge thank you to</p></div>
   <div class = "oursponsors"><p>Our Sponsors</p></div>
   
-  
-  <div class="row" style="margin-left: 8%;">
-    <div class="col-lg-3 col-md-12">
+  <div class="d-flex justify-content-around">
+ 
   <div id="group-22">
     <div class="rectangle-161"><img src="images/nilenso1.png" alt="nilenso" class="nilenso-1"></div>
   </div>
-</div>
-<div class="col-lg-3 col-md-12">
-  <div id="group-22">
+  <div id="group-23">
     <div class="rectangle-161"><img src="images/fossee-1@2x.png" alt="nilenso" class="fossee-1"></div>
   </div>
-</div>
-  <div class="col-lg-3 col-md-12">
-    <div id="group-22">
-      <div class="rectangle-161"><img src="images/icfoss-1@2x.svg" alt="nilenso" class="icfoss"></div>
-    </div>
+  <div id="group-24">
+    <div class="rectangle-161"><img src="images/icfoss-1@2x.svg" alt="nilenso" class="icfoss"></div>
   </div>
-  <div class="col-lg-3 col-md-12">
-    <div id="group-22">
+    <div id="group-25">
       <div class="rectangle-161"><img src="images/stickermule-1@2x.png" alt="nilenso" class="stickermule-1"></div>
     </div>
-  </div>
-</div>
 </div>
 </div>
 </div>
@@ -159,7 +147,7 @@
 <section id = "seventh-page">
   <div class = "space2"></div>
   <p class = "testimonials">Testimonials</p>
-
+  <br><br>
   <h1 class="testmnls-title">What people say about FOSSMeet</h1>
   <div class="row">
     <div class = "col-lg-3 col-md-12">
