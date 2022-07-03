@@ -165,9 +165,10 @@ width: 120%;
   margin-top: 100px;
   font-weight: 500;
   font-family: 'JetBrains Mono', monospace;
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   margin-bottom: 70px;
+  margin-left: 15%;
 }
 
 .title5{
